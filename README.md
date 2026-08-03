@@ -1,4 +1,4 @@
-# Chill with You: Lo-Fi Story Apple ID Login on Linux + Proton platform (AI-generated)
+# Chill with You: Lo-Fi Story Apple ID Login on Linux + Proton platform
 
 This tutorial will guide you through binding your Apple ID while running *Chill with You: Lo-Fi Story* via Steam Proton on Linux Mint 22.3 (also applicable to other Linux distributions), and implement **automatic browser callback injection** so you never have to manually copy a link again.
 
