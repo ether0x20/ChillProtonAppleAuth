@@ -1,7 +1,7 @@
 [Desktop Entry]
 Type=Application
 Name=Chill OAuth Handler
-Exec=/home/ethan/.local/bin/chill_oauth_handler.sh %u
+Exec=/home/ethan/.local/bin/chill_auth_handler.sh %u
 MimeType=x-scheme-handler/chill.oauth;
 NoDisplay=true
 Name[en_US]=chill_auth_handler.desktop

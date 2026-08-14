@@ -7,14 +7,14 @@ APP_DIR="$HOME/.local/share/applications"
 
 mkdir -p "$BIN_DIR" "$APP_DIR"
 
-cp "$SCRIPT_DIR/chill_oauth_handler.sh" "$BIN_DIR/chill_oauth_handler.sh"
-chmod +x "$BIN_DIR/chill_oauth_handler.sh"
+cp "$SCRIPT_DIR/chill_auth_handler.sh" "$BIN_DIR/chill_auth_handler.sh"
+chmod +x "$BIN_DIR/chill_auth_handler.sh"
 
-cp "$SCRIPT_DIR/chill-oauth-handler.desktop" "$APP_DIR/chill-oauth-handler.desktop"
+cp "$SCRIPT_DIR/chill_auth_handler.desktop" "$APP_DIR/chill_auth_handler.desktop"
 
 update-desktop-database "$APP_DIR" 2>/dev/null || true
-xdg-mime default chill-oauth-handler.desktop x-scheme-handler/chill.oauth
+xdg-mime default chill_auth_handler.desktop x-scheme-handler/chill.oauth
 
-echo "安装完成。"
-echo "  - 脚本: $BIN_DIR/chill_oauth_handler.sh"
-echo "  - 桌面入口: $APP_DIR/chill-oauth-handler.desktop"
+echo "Install Complete"
+echo "  - Script: $BIN_DIR/chill_auth_handler.sh"
+echo "  - Desktop File: $APP_DIR/chill_auth_handler.desktop"
